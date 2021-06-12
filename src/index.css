@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-header {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131A28;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-text {
+  color: #1CDBF5;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.square {
+  min-width: 80px;
+  min-height: 80px;
+  font-size: 60px;
+  text-align: center;
+  color: #1CDBF5;
+  font-weight: bolder;
+  padding: 25px;
+}
+
+.b-bottom-right {
+  border-right: 10px solid #1CDBF5;
+  border-bottom: 10px solid #1CDBF5;
+}
+
+.b-bottom {
+  border-bottom: 10px solid #1CDBF5;
+}
+
+.b-right {
+  border-right: 10px solid #1CDBF5;
+}
+
+.clear-button {
+  width: 120px;
+  height: 40px;
+  margin-left: 1000px;
+  border: 4px solid #1CDBF5;
+  background: #131A28;
+  color: #1CDBF5;
+  font-size: 20px;
+}
+
+.foot{
+  font-weight: bolder;
+  color: #1CDBF5;
+  padding-top: 50px;
+}
